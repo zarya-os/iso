@@ -1,0 +1,12 @@
+#!/bin/sh
+# Description: Download Flathub remote and install adw-gtk3
+
+echo "P: Downloading flathub.flatpakrepo..."
+wget https://flathub.org/repo/flathub.flatpakrepo
+
+apt-get install -f -q -y flatpak
+mkdir -p /etc/flatpak/remotes.d/
+cp flathub.flatpakrepo /etc/flatpak/remotes.d
+
+flatpak install flathub --system -y org.gtk.Gtk3theme.adw-gtk3 && echo "P: Installed adw-gtk3."
+flatpak install flathub --system -y org.gtk.Gtk3theme.adw-gtk3-dark && echo "P: Installed adw-gtk3-dark."

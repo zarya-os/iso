@@ -7,6 +7,7 @@ language-pack-en
 language-pack-gnome-en
 xfsprogs
 jfsutils
+btrfs-progs
 reiserfsprogs
 shim-signed
 shim
@@ -16,5 +17,7 @@ dmraid
 wamerican
 fwupdate
 mokutil
-ubiquity-frontend-gtk
 zram-config
+rsync
+distinst
+vanilla-installer
