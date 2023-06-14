@@ -1,10 +1,6 @@
 #zarya meta packages
 zarya-desktop
 
-#fonts
-fonts-cantarell
-fonts-cascadia-code
-
 #dump form ubuntu-minimal sans ubuntu-branding packages
 accountsservice
 acl
@@ -1024,8 +1020,6 @@ libtimedate-perl
 libtinfo6:amd64
 libtirpc-common
 libtirpc3:amd64
-libtotem-plparser-common
-libtotem-plparser18:amd64
 libtracker-sparql-3.0-0:amd64
 libtry-tiny-perl
 libtss2-esys-3.0.2-0:amd64
@@ -1497,10 +1491,6 @@ xserver-xorg-video-vmware
 xwayland
 xxd
 xz-utils
-yaru-theme-gnome-shell
-yaru-theme-gtk
-yaru-theme-icon
-yaru-theme-sound
 yelp
 yelp-xsl
 zenity
